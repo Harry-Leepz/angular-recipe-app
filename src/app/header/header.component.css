@@ -1,0 +1,4 @@
+/* Override Bootstrap navbar border radius */
+.navbar {
+  border-radius: 0;
+}
