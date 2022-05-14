@@ -11,14 +11,14 @@ export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
     new Recipe(
-      'A test recipe',
-      'The recipe is for testing only',
-      'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/processed-food700-350-e6d0f0f.jpg?quality=90&resize=556,505'
+      'Fish and Chips',
+      'This is a description of Fish and Chips',
+      'https://www.thespruceeats.com/thmb/-Hq2aVGdlH43SB1R-A7UK2dCb6k=/1500x844/smart/filters:no_upscale()/best-fish-and-chips-recipe-434856-Hero-5b61b89346e0fb00500f2141.jpg'
     ),
     new Recipe(
-      'A test recipe',
-      'The recipe is for testing only',
-      'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/processed-food700-350-e6d0f0f.jpg?quality=90&resize=556,505'
+      'Aloo Parothe',
+      'This is description on Aloo Parothe',
+      'https://static.toiimg.com/thumb/53109843.cms?imgsize=244340&width=800&height=800'
     ),
   ];
 
