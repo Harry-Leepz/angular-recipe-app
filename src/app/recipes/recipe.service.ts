@@ -1,7 +1,7 @@
 import { Recipe } from './recipe.model';
 
 export class RecipeService {
-  recipes: Recipe[] = [
+  private recipes: Recipe[] = [
     new Recipe(
       'Fish and Chips',
       'This is a description of Fish and Chips',
@@ -13,4 +13,9 @@ export class RecipeService {
       'https://static.toiimg.com/thumb/53109843.cms?imgsize=244340&width=800&height=800'
     ),
   ];
+
+  getRecipes() {
+    // The slice() method is used to return a brand new array and not a coppy of the original array
+    return this.recipes.slice();
+  }
 }
